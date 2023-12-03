@@ -31,3 +31,6 @@ Improved Planning: Deep learning models can also be used to optimize the plannin
 Quality Assurance: Deep learning models can be used to verify the treatment plan and predict potential errors before the treatment is delivered.
 
 In summary, while traditional methods for radiation dose planning are effective, they can be time-consuming and require a high level of expertise. Deep learning has the potential to automate and improve this process, which can ultimately lead to better treatment outcomes for patients.
+
+
+
