@@ -36,3 +36,6 @@ class BaseUNet(nn.Module):
 In this example, transformer is an instance of your chosen transformer model. The transformer processes the output of the last encoder layer, and its output is then passed to the decoder.
 
 Please note that this is a very general approach and might need to be adjusted depending on your specific task and the transformer model you are using. For example, if your transformer expects a certain input shape, you might need to reshape the encoder output accordingly.
+    PTVs = 70.0 / 70. * dict_images['PTV70'] \
+           + 63.0 / 70. * dict_images['PTV63'] \
+           + 56.0 / 70. * dict_images['PTV56']
